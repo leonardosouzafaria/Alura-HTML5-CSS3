@@ -32,3 +32,23 @@
     transform: scale(1.2) rotate(-5deg) ;  
 }
 
+.container > p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #3C1D3D;
+    text-shadow: 1px 1px #000;
+    margin-right: .2ch;
+    line-height: 1;
+}
+
+blockquote p {
+    position: relative;
+}
+
+blockquote::before {
+    content: '“';
+    font-size: 10em;
+    position: absolute;
+    color: #bbb;
+    line-height: .8;
+}

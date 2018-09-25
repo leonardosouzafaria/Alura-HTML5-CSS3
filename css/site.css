@@ -101,6 +101,19 @@ em {
     height: 40px;
     display: block;
     text-indent: -99999px;
+    position: relative;
+}
+
+.icones-redes-sociais li a:hover::after{
+    content: attr(data-legenda);
+    position: absolute;
+    text-indent: 0;
+    top: 100%;
+    right: 0;
+    width: 300%;
+    background-color: black;
+    font-size: .75em;
+
 }
 
 .github {
