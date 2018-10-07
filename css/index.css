@@ -70,18 +70,20 @@
 }
 
 .trabalhos ul {
-    overflow: hidden;
+    /* overflow: hidden; */
+    display: flex;
     border: .5em solid black;
 }
 
 .trabalhos li {
-    float: left;
-    width: 33.333%;
+    /* float: left; */
+    flex: 1;    
+    /* width: 33.333%; */
 }
 
 .trabalhos img {
     width: 100%;
-    display: block;
+    /* display: block; */
 }
 
 .blog {
@@ -346,4 +348,8 @@ body {
     to {
         top: 5px;
     }
+}
+
+.container-flex {
+    display: flex;
 }
